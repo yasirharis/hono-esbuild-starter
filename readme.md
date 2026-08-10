@@ -112,7 +112,7 @@ npm run deploy
 
 | Script | Command | Description |
 | --- | --- | --- |
-| `dev` | `wrangler dev` | Starts local dev server with Wrangler. |
+| `dev` | `npm run build && wrangler dev` | Starts local dev server with Wrangler. |
 | `build:css` | `node build-css.js` | Purges unused CSS and minifies styles to `dist/`. |
 | `build:worker` | `node esbuild.config.js` | Bundles TypeScript/JSX worker code via ESBuild. |
 | `build` | `npm run build:css && npm run build:worker` | Full production build sequence. |
