@@ -1,0 +1,27 @@
+{
+  "name": "hono-tailwind-esbuild-simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build:css": "node build-css.js",
+    "build:worker": "node esbuild.config.js",
+    "build": "npm run build:css && npm run build:worker",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "hono": "^4.12.33"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260801.1",
+    "csso": "^5.0.5",
+    "esbuild": "^0.28.1",
+    "purgecss": "^8.0.0",
+    "wrangler": "^4.118.0"
+  }
+}
