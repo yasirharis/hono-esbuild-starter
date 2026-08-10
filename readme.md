@@ -48,7 +48,7 @@ Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/yasirharis/hono-esbuild-starter
-cd hono-tailwind-esbuild-simple
+cd hono-esbuild-starter
 npm install
 
 ```
