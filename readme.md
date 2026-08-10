@@ -47,7 +47,7 @@ Ensure you have **Node.js** (v18 or higher) and **npm** installed.
 Clone the repository and install dependencies:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/yasirharis/hono-esbuild-starter
 cd hono-tailwind-esbuild-simple
 npm install
 
